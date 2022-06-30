@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main(void)
+/**
+* main - Entry point
+* Return: Always 0 (Success)
+*/
 {
-/*to print a sentence*/
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
