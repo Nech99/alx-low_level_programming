@@ -1,10 +1,11 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- * main-Entry point
+ * main - Prints a text according number
  *
- * Return 0: always (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
