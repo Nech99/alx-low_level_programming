@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
-  * main - Prints a hexadecimal string
+  * main - Prints hexadecimal numbers in lowercase
   *
   * Return: Always (Success)
   */
 int main(void)
 {
-	char c;
+	char hex;
 
-	for (c = '0'; c <= '9'; c++)
+	for (hex = '0'; hex <= '9'; hex++)
 	{
-		putchar(c);
+		putchar(hex);
 	}
 
-	for (c = 'a'; c <= 'f'; c++)
+	for (hex = 'a'; hex <= 'f'; hex++)
 	{
-		putchar(c);
+		putchar(hex);
 	}
 
 	putchar('\n');
