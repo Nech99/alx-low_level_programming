@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - prints alphabets from a to z
- * Return : 0 always success
- */
+* print_alphabet -> prints from a to z
+* Return : 0 always success
+*/
 
 void print_alphabet(void)
 {
