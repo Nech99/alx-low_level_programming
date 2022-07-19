@@ -1,15 +1,15 @@
 #include "main.h"
 #include <string.h>
-
 /**
- * _memcpy - copies memory area
- * @dest: function parameter
- * @src: second function parameter
+ * _memset - fills memory with a constant byte
+ *
+ * @s: function parameter
+ * @b: second function parameter
  * @n: third function parameter
- * Return: a pointer to dest
+ * Return: pointer to memory area (s)
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	return memcpy(dest, src, n);
+	return memset(s, b, n);
 }
