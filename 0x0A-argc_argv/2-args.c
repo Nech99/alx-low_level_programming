@@ -1,19 +1,23 @@
+/*
+ * File: 2-args.c
+ * Auth: Gedeon Obae Gekonge
+ */
+
 #include <stdio.h>
+
 /**
- * main - prints all command line arguments as it receives it
- * @argc: argument count
- * @argv: argument vector
- * Return: 0
+ * main - Prints all arguments it receives.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
+ *
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
-	int n = argc;
-	int i;
+	int arg;
 
-	for (i = 0; i < n; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
+	for (arg = 0; arg < argc; arg++)
+		printf("%s\n", argv[arg]);
 
 	return (0);
 }
