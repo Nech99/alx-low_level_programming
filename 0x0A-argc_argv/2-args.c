@@ -1,6 +1,5 @@
 /*
  * File: 2-args.c
- * Auth: Gedeon Obae Gekonge
  */
 
 #include <stdio.h>
